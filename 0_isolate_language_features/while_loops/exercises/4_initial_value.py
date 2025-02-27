@@ -14,7 +14,7 @@ print('-- begin --')
 # there are more than 1 correct answer!
 # how many can you find?
 # what do all the correct answers have in common?
-sum = _
+sum = 64
 
 while sum < 100:
     if sum % 2 == 0:

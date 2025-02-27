@@ -19,11 +19,11 @@ message = ' days remaining until ' + holiday
 # declare and assign the stepper variable
 # this stepper counts down the days to a holiday
 days_remaining = 14
-while __:
+while days_remaining > 0:
     tweet = str(days_remaining) + message
     print(tweet)
     
-    days_remaining = __  # Count down
+    days_remaining -= 1  # Count down
 
 final_tweet = 'today is ' + holiday + '!'
 print(final_tweet)

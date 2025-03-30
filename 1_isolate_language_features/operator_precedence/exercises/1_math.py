@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-assert 3 * 2 + 1 == _, 'a' 
+assert 3 * 2 + 1 == 7, 'a' 
 
-assert 3 * (2 + 1) == _, 'b'
+assert 3 * (2 + 1) == 9, 'b'
 
-assert 4 / 2 - 1 == _, 'c'
+assert 4 / 2 - 1 == 1.0, 'c'
 
-assert 4 / (2 - 1) == _, 'd'
+assert 4 / (2 - 1) == 4.0, 'd'
 
-assert 1 + -2 * 3 == _, 'e'
+assert 1 + -2 * 3 == -5, 'e'
 
-assert (1 + -2) * 3 == _, 'f'
+assert (1 + -2) * 3 == -3, 'f'
 
-assert (4 % 2) + 3 == _, 'h'
+assert (4 % 2) + 3 == 3, 'h'
 
-assert 4 % (2 + 3) == _, 'i'
+assert 4 % (2 + 3) == 4, 'i'
